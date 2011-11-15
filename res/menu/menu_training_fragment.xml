@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/stoptraining"
+        android:title="@string/stop_training"
+        android:visible="true"></item>
+</menu>

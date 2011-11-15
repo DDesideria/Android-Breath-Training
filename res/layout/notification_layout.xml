@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal">
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:id="@+id/imageView1"
+		android:layout_width="wrap_content"></ImageView>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_weight="1">
+		<TextView
+			android:text="TEXT VIEW1"
+			android:id="@+id/textView1"
+			android:textColor="@android:color/primary_text_light"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"></TextView>
+		<TextView
+			android:text="TextView2"
+			android:textColor="@android:color/primary_text_light"
+			android:textSize="20dip"
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:layout_marginLeft="5dip"></TextView>
+	</LinearLayout>
+	<ProgressBar
+		android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:id="@+id/progressBar1"
+		android:layout_width="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center"
+		android:layout_marginLeft="5dip"></ProgressBar>
+
+</LinearLayout>

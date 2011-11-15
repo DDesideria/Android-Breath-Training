@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/sound" android:dependency="@string/sound_on">
+        <CheckBoxPreference android:key="@string/sound_on" android:shouldDisableView="true" android:title="@string/enabled"></CheckBoxPreference>
+        <CheckBoxPreference android:key="@string/sound_phase_change" android:dependency="@string/sound_on" android:title="@string/on_phase_change"></CheckBoxPreference>
+        <CheckBoxPreference android:key="@string/sound_periodic" android:dependency="@string/sound_on" android:title="@string/every_minute"></CheckBoxPreference>
+        <RingtonePreference android:dependency="@string/sound_on" android:key="@string/ringtone" android:title="@string/choose_ringtone" android:ringtoneType="notification"></RingtonePreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/vibro">
+        <CheckBoxPreference android:key="@string/vibro_on" android:title="@string/enabled"></CheckBoxPreference>
+        <CheckBoxPreference android:key="@string/vibro_phase_change" android:title="@string/on_phase_change" android:dependency="@string/vibro_on"></CheckBoxPreference>
+        <CheckBoxPreference android:key="@string/vibro_periodical" android:title="@string/every_minute" android:dependency="@string/vibro_on"></CheckBoxPreference>
+        <Preference android:title="@string/duration" android:key="@string/vibro_duration"></Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/accelerometer">
+        <CheckBoxPreference android:key="@string/accelerometer_on" android:defaultValue="true" android:title="@string/enabled"></CheckBoxPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

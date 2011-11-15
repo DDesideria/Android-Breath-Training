@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<name.Freediving.ui.DepthRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/TotalTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="100dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="24sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/progres_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border_blue"
+            android:gravity="center"
+            android:text="00:00/00:00"
+            android:textSize="48sp"
+            android:textStyle="bold" >
+        </TextView>
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/CurrentTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dip"
+                android:layout_weight="5"
+                android:text=""
+                android:textSize="24sp" >
+            </TextView>
+            <Button
+                android:id="@+id/skipBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/sel_btn_skip"
+                android:text="@string/Skip" >
+            </Button>
+        </LinearLayout>
+        <Button
+            android:id="@+id/PauseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_weight="1"
+            android:background="@drawable/btn_pause"
+            android:text="@string/start" >
+        </Button>
+    </LinearLayout>
+    <ToggleButton
+        android:id="@+id/BtnAwaitToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="@drawable/sel_toggle_btn"
+        android:text="" />
+</name.Freediving.ui.DepthRelativeLayout>

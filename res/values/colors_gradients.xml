@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arrays for  creating naturaly-looking Sea  gradients -->
+<resources>
+	<array name="depth_colors">
+		<item>#cacaca</item>
+		<item>#0966b6</item>
+		<item>#0c151c</item>
+	</array>
+	<array name="depth_colors_positions">
+		<item>0f</item>
+		<item>0.5f</item>
+		<item>1f</item>
+	</array>
+</resources>
