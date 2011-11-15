@@ -5,7 +5,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
 	<fragment
-		android:name="name.Freediving.ui.TrainingFragment"
+		android:name="name.freediving.ui.TrainingFragment"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent" />
 </merge>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<name.Freediving.ui.DepthRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<name.freediving.ui.DepthRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fl"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -75,7 +75,9 @@
         android:id="@+id/BtnAwaitToggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
         android:layout_gravity="top|right"
         android:background="@drawable/sel_toggle_btn"
         android:text="" />
-</name.Freediving.ui.DepthRelativeLayout>
+</name.freediving.ui.DepthRelativeLayout>

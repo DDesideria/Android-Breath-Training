@@ -1,41 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<name.Freediving.ui.DepthLinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:gravity="center"
-	android:background="@drawable/sea_gradient"
-	android:id="@+id/main_linear_layout">
-
-	<TextView
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="Breath Trainer Alfa"
-		android:gravity="center"
-		android:textSize="20sp"
-		android:padding="20dp" />
-
-
-	<Button
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/startProgram"
-		android:text="Start training!" />
-
-	<Button
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="Edit Programs"
-		android:id="@+id/editProgram" />
-	<Button
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="Prefs"
-		android:id="@+id/prefs" />
-	<Button
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="Help and About"
-		android:id="@+id/HelpAbout" />
-</name.Freediving.ui.DepthLinearLayout>
+<name.freediving.ui.DepthLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_linear_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sea_gradient"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Breath Trainer Alfa"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/startProgram"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start training!" />
+    <Button
+        android:id="@+id/editProgram"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Programs" />
+    <Button
+        android:id="@+id/prefs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Prefs" />
+    <Button
+        android:id="@+id/HelpAbout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Help and About" />
+</name.freediving.ui.DepthLinearLayout>

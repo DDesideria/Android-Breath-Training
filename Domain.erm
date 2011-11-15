@@ -71,7 +71,7 @@
 			<comment_replace_string></comment_replace_string>
 			<export_java_setting>
 				<java_output>F:\PersonalWorkspace\Freedive</java_output>
-				<package_name>name.Freediving.db</package_name>
+				<package_name>name.freediving.db</package_name>
 				<class_name_suffix>S</class_name_suffix>
 				<src_file_encoding>windows-1251</src_file_encoding>
 				<with_hibernate>false</with_hibernate>
